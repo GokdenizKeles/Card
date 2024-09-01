@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Outfit";
+}
+.out-card {
+  background: rgba(13, 25, 44, 1);
+    width: 1440px;
+  text-align: center;
+  margin-inline: auto;
+   height: 900px;
+   padding-top: 80px;
+  }
+.out-card .card {
+  background: rgba(21, 38, 63, 1);
+  width: 350px;
+  padding-inline: 24px;
+  border-radius: 24px;
+  margin-left: 200px;
+ position: relative;
+}
+.card h1 {
+  color: #fff;
+font-size: 22px;
+font-weight: 600;
+line-height: 27.72px;
+text-align: left;
+padding-top: 24px;
+padding-bottom: 16px;
+}
+.card p {
+  color: #8BACD9;
+font-size: 18px;
+font-weight: 300;
+line-height: 26px;
+text-align: left;
+padding-bottom: 24px;
+}
+ .triangle-up {
+  width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-bottom: 11px solid aqua;
+ 
+}
+  .triangle-down {
+    width: 0;
+height: 0;
+border-top: 6px solid aqua;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+ margin-top: 1px;
+ margin-bottom: 24px;
+}
+.triangle-up h6 {
+padding-left: 20px;
+ display: ruby-text;
+ color: aqua;
+  font-weight: 600;
+  font-size: 16px;
+ line-height: 20.16px;
+ 
+}
+
+.line {
+  display: block;
+  width: 302px;
+  background: rgba(46, 64, 90, 1);
+  height: 1px;
+  margin-bottom: 16px;
+}
+.card .avatar-img {
+  display: flex;
+ vertical-align: middle;
+margin-right: 10px;
+margin-bottom: 40px;
+}
+.card .inner {
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+  color: #fff;
+
+}
+.inner span{
+ padding-right: 5px;
+color: #8BACD9;
+}
+.card .cover {
+  margin-top: 24px;
+  display: block;
+   position: relative;
+}
+.ffa {
+  display: inline-block;
+}
+.card .eye {
+  position: absolute;
+   top: 150px;
+    left: 150px;
+   display: none;
+   
+  }
+  .card .cover:hover + .eye {
+    display: block;
+     z-index: 4;
+  }
+ .card .cover:hover  {
+  opacity: 0.5;
+  display: block;
+}
+  a.inner:hover {
+    color: aqua;
+  }
+  h1:hover {
+    color: aqua;
+  }
+  
+  
+  
+ 
+  
+
+
+
